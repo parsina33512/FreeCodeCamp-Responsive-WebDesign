@@ -6,6 +6,12 @@ HTML, which stands for Hypertext Markup Language
 
 
 
+0-<!DOCTYPE html> 
+
+in <!DOCTYPE html> we believe 
+
+
+
 1- <h1>your note</h1>
 
 (this becomes the header priority and size 1 of your website in SEO this tells a lot)
@@ -431,6 +437,38 @@ To place emphasis on a specific word or phrase, you can use the em element.
 The code for an ordered list (ol) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
 
 
+
+
+
+
+
+23-The strong element
+
+The strong element is used to indicate that some text is of strong importance or urgent.
+
++++ it's some sort of font for texts out there 
+
+
+
+
+
+
+
+24-The footer element
+
+The footer element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+
+
+
++++ it comes after main element
+
+
+
+
+
+25-The title element
+
+determines what browsers show in the title bar or tab for the page.
 
 
 
