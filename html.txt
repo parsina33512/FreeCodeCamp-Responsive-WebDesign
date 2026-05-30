@@ -140,3 +140,18 @@ UTF-8, or UCS Transformation Format 8, is a standardized character encoding wide
 
 
 
+13-nesting:
+In the previous step
+(
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+    <p>Everyone loves cute cats online!</p>
+    </main>
+  </body>
+</html>
+)
+, you put the h1, h2, comment, and p elements inside the main element. This is called nesting
