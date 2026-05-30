@@ -6,7 +6,7 @@ HTML, which stands for Hypertext Markup Language
 
 
 
-1- <h1>your note</h1> 
+1- <h1>your note</h1>
 
 (this becomes the header priority and size 1 of your website in SEO this tells a lot)
 
@@ -36,7 +36,7 @@ which is normal text which we may edit later with css
 
 
 
-&#x20;++++ java script makes your page interactive it tells what happens when you click hover or change the volume of your mouse 
+&#x20;++++ java script makes your page interactive it tells what happens when you click hover or change the volume of your mouse
 
 
 
@@ -108,7 +108,7 @@ The attribute name is followed by an equal sign (=) and a value in quotes. The v
 
 
 
-righteous format to get up and use img src and href : 
+righteous format to get up and use img src and href :
 
 
 
@@ -142,7 +142,7 @@ righteous format to get up and use img src and href :
 
 
 
-7- Link element: 
+7- Link element:
 
 The link element is used to link to external resources like stylesheets and site icons. Here is the basic syntax for using the link element for an external CSS file:
 
@@ -340,7 +340,7 @@ The src attribute in an img element specifies the image's URL (where the image i
 
 
 
-## 15-target attribute 
+## 15-target attribute
 
 To open links in a new tab on anchor,The target attribute specifies where to open the linked document. target="\_blank" opens the linked document in a new tab or window.
 
@@ -364,9 +364,71 @@ To create an unordered list of items, you can use the ul element
 
 
 
-++since it's element it comes with closing tag as well 
+++since it's element it comes with closing tag as well
 
 
+
+
+
+### 18-li element 
+
+The li element is used to create a list item in an ordered or unordered list.
+
+list of items are shown with bullets
+
+
+
+++++then it can be used under the <ol> too 
+
+
+
+### 19-The figure element
+
+Step 25
+
+The figure element represents self-contained content and will allow you to associate an image with a caption.
+
+
+
+we can Nest inside figure element.
+
+
+
+
+
+
+
+### 20-figcaption
+
+A figure caption (figcaption) element is used to add a caption to describe the image contained within the figure element.
+
+Example Code:
+
+<figure>
+
+&#x20; <img src="image.jpg" alt="A description of the image">
+
+&#x20; <figcaption>A cute cat</figcaption>
+
+</figure>
+
+
+
+
+
+21-em
+
+To place emphasis on a specific word or phrase, you can use the em element.
+
+
+
+
+
+
+
+22-ol
+
+The code for an ordered list (ol) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
 
 
 
