@@ -358,5 +358,17 @@ The section element is used to define sections in a document, such as chapters, 
 
 
 
+### 17-ul element.
+
+To create an unordered list of items, you can use the ul element
+
+
+
+++since it's element it comes with closing tag as well 
+
+
+
+
+
 
 
