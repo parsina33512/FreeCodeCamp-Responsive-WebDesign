@@ -6,9 +6,9 @@ HTML, which stands for Hypertext Markup Language
 
 
 
-0-<!DOCTYPE html> 
+0-<!DOCTYPE html>
 
-in <!DOCTYPE html> we believe 
+in <!DOCTYPE html> we believe
 
 
 
@@ -376,7 +376,7 @@ To create an unordered list of items, you can use the ul element
 
 
 
-### 18-li element 
+### 18-li element
 
 The li element is used to create a list item in an ordered or unordered list.
 
@@ -384,7 +384,7 @@ list of items are shown with bullets
 
 
 
-++++then it can be used under the <ol> too 
+++++then it can be used under the <ol> too
 
 
 
@@ -446,7 +446,7 @@ The code for an ordered list (ol) is similar to an unordered list, but list item
 
 The strong element is used to indicate that some text is of strong importance or urgent.
 
-+++ it's some sort of font for texts out there 
++++ it's some sort of font for texts out there
 
 
 
@@ -471,4 +471,68 @@ The footer element is used to define a footer for a document or section. A foote
 determines what browsers show in the title bar or tab for the page.
 
 
+
+26-The div element
+The div element is used as a container to group other elements.
+
+Here is an example of a div element. Add another paragraph element inside of the div element and see the changes in the preview window. To see the previews, you will need to enable the interactive editor.
+
+<div>
+  <p>Example paragraph element.</p>
+</div>
+You will mainly use the div element when you want to group HTML elements that will share a set of CSS styles.
+
+
+
++++For example, if you wanted to divide up your content into sections, then the section element would be more appropriate than a div element.
+
+
+
++++The section element has semantic meaning over the div element which is not semantic. Semantics are the meaning of words or phrases in a language. In HTML, which is a language, elements have their own semantic meaning too. So, this means if you use a section element, the browser will pick up its semantic meaning and understand to treat this as a section - on desktops, mobiles, you name it.
+in summary div has no semantic meaning.
+
+
+
+
+
+27-The id and class attribute
+id att adds a unique identifier to an HTML element.
+
++Browsers will see this space as part of the id which will lead to unwanted issues when it comes to styling and scripting. id attribute values should only contain letters, digits, underscores, and dashes.
+
+++In contrast to the id attribute, the class attribute value does not need to be unique and can contain spaces.
+
++++So, to recap, when should you use an id versus a class? Classes are best used when you want to apply a set of styles to many elements. If you want to target a specific element, it is best to use id because those values need to be unique.
+
+++If you wanted to add multiple class names to an element, you can do so by separating the names by a space.
+
+
+
+
+
+28-What Are HTML Entities: < >
+to put an < now we can put <img> and it would show as it should without being removed >
+
+
+
+
+
+
+
+29-The script element
+The script element is used to embed executable code. Most developers will use this to execute JavaScript code. JavaScript is used to add interactivity to your web pages. Common examples of using JavaScript include interactive games, image sliders, and dynamic forms that validate user input in real-time.
+
+
+
+
+
++++While you can technically write all of your JavaScript code inside the script tags, it is considered best practice to link to an external JavaScript file instead. Here is an example of using the script element to link to an external JavaScript file:
+
+<script src="path-to-javascript-file.js"></script>
+
+
+
+
+
+30-
 
