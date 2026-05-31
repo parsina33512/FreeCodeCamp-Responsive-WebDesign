@@ -534,5 +534,25 @@ The script element is used to embed executable code. Most developers will use th
 
 
 
-30-
+
+
+
+
+
+
+30-button element
+
+The button element is used to create clickable buttons on a webpage. Buttons are interactive elements that users can click to perform actions.
+
+
+
+
+
+
+
+
+
+
+
+
 
