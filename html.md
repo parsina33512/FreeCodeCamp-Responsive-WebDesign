@@ -762,6 +762,152 @@ For the src, or source attribute, we are using a video called "Big Buck Bunny" f
 
 
 
++++++++++++++++++++++++++++++++++++++++++++++++
+
+640x480 640 is the width and 480 is the height , older formats or jpg and PNG while newer and useful one are : WEBP and AVIF
+
++jpg losses cpmarison data while being redownloaded, it's more trash than other overall
+
+while svg is scaleable vector graphic setting it's values in XML,which is top notch to work with, keep that in mind 
+
++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+38-SVG element
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+39-path element
+
+which describes the values of SVG we gonna build 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40- d attribute 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+41-while width and height come as att inside the svg element
+
+
+
+
+
+
+
+
+
+
+
+
+
+42-viewBox Attribute
+
+which controls what part of image is visible inside SVG
+
+
+
+
+
+
+
+
+
+
+
+43-fill attribute
+
+to fill the color of Certain place loke the drawn box in svg 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
