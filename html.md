@@ -576,7 +576,7 @@ The open graph protocol enables you to control how your website's content appear
 
 
 
-#### The first important OG property to include would be the title. 
+#### The first important OG property to include would be the title.
 
 Here is an example of setting the OG title for the freeCodeCamp homepage:
 
@@ -588,7 +588,7 @@ For the property attribute, you will need to specify that it is og:title. The co
 
 
 
-#### The next important OG property would be the type. 
+#### The next important OG property would be the type.
 
 Here is an example of using the OG type for the freeCodeCamp homepage:
 
@@ -631,6 +631,152 @@ There are many more OG properties that you can set, like description, audio, vid
 
 
 So how do these open graph properties affect Search Engine Optimization? When your content is shared on social media, well-crafted OG properties can enhance the appearance for your content in users' feeds. This can lead to higher click-through rates which could signal to search engines that your content is relevant and engaging.
+
+
+
+
+
+
+
+##### an exemplary usage of <a> on img in figure with figcaption as second nested element with target att to \_blank:
+
+
+
+<figure><a href="https://www.freecodecamp.org/learn" target="\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
+
+&#x20;
+
+
+
+
+
+
+
+
+
+
+
+#### 33.34-HTML Audio and Video Elements
+
+The audio and video elements allow you to add sound and video content to your HTML documents. The audio element supports popular audio formats like mp3, wav, and ogg. The video element supports mp4, ogg, and webm formats.
+
+
+
+
+
+
+
++++++++++++++++
+
+35-If you want to see the audio player on the page, then you can add the audio element with the <controls> attribute.
+
+==================
+
++++they come with src and can have href and target too be anchored as well
+
+
+
+36- The loop attribute is a boolean attribute that makes the audio replay continuously.
+
+&#x20;
+
++++loop and control att dont need any value
+
+
+
+When it comes to audio file types, there are differences in which browsers support which type. To accommodate this, you can use source elements inside the audio element and the browser will select the first source that it understands. Here's an example of using multiple source elements for an audio element:
+
+
+
+<audio controls>
+
+&#x20; <source src="audio.ogg" type="audio/ogg" />
+
+&#x20; <source src="audio.wav" type="audio/wav" />
+
+&#x20; <source src="audio.mp3" type="audio/mpeg" />
+
+</audio>
+
+
+
+
+
++++element. This lets you provide the same video in multiple formats, and the browser will choose the first one it can play.
+
+
+
+<video
+
+&#x20; controls
+
+&#x20; width="400"
+
+&#x20; poster="https://peach.blender.org/wp-content/uploads/title\_anouncement.jpg?x11217"
+
+>
+
+&#x20; <source
+
+&#x20;   src="https://archive.org/download/BigBuckBunny\_124/Content/big\_buck\_bunny\_720p\_surround.mp4"
+
+&#x20;   type="video/mp4"
+
+&#x20; />
+
+&#x20; <source
+
+&#x20;   src="https://archive.org/download/BigBuckBunny\_124/Content/big\_buck\_bunny\_720p\_surround.webm"
+
+&#x20;   type="video/webm"
+
+&#x20; />
+
+&#x20; Your browser does not support the video tag.
+
+</video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37-Poster att
+
+For the src, or source attribute, we are using a video called "Big Buck Bunny" from archive.org. If you wanted to display an image while the video is downloading, you can use the poster attribute. This attribute is not available for audio elements and is unique to the video element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
