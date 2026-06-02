@@ -642,7 +642,7 @@ So how do these open graph properties affect Search Engine Optimization? When yo
 
 
 
-<figure><a href="https://www.freecodecamp.org/learn" target="\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
+<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
 
 &#x20;
 
@@ -768,7 +768,7 @@ For the src, or source attribute, we are using a video called "Big Buck Bunny" f
 
 +jpg losses cpmarison data while being redownloaded, it's more trash than other overall
 
-while svg is scaleable vector graphic setting it's values in XML,which is top notch to work with, keep that in mind 
+while svg is scaleable vector graphic setting it's values in XML,which is top notch to work with, keep that in mind
 
 +++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -794,11 +794,9 @@ while svg is scaleable vector graphic setting it's values in XML,which is top no
 
 
 
-
-
 39-path element
 
-which describes the values of SVG we gonna build 
+which describes the values of SVG we gonna build
 
 
 
@@ -814,15 +812,7 @@ which describes the values of SVG we gonna build
 
 
 
-
-
-40- d attribute 
-
-
-
-
-
-
+40- d attribute
 
 
 
@@ -850,8 +840,6 @@ which describes the values of SVG we gonna build
 
 
 
-
-
 42-viewBox Attribute
 
 which controls what part of image is visible inside SVG
@@ -868,7 +856,24 @@ which controls what part of image is visible inside SVG
 
 43-fill attribute
 
-to fill the color of Certain place loke the drawn box in svg 
+to fill the color of Certain place loke the drawn box in svg
+
+
+
+
+
+
+
+### 
+
+44-iframe element
+This element stands for inline frame. It's an inline element used to embed other HTML content directly within the HTML page. That HTML content could be a video, map, another HTML element, or even other web pages.
+
+
+
+
+
+++++++it's a replaced element just like img. That means it can also take the width and height properties to determine how tall and wide it should be.
 
 
 
@@ -878,6 +883,33 @@ to fill the color of Certain place loke the drawn box in svg
 
 
 
+45-beside iframe element we use ALLOW (allow att)
+
+It's like a permission list that tells the browser what features the iframe is allowed to use
+
+
+
+Here's an iframe element with the allow attribute:
+
+
+
+<iframe
+
+&#x20; allow="accelerometer autoplay clipboard-write encrypted-media gyroscope picture-in-picture web-share"
+
+></iframe>
+
+
+
+
+
+accelerometer lets the iframe use motion sensors so it can detect things like device tilting and rotation. autoplay lets the video start playing automatically, and clipboard-write lets the iframe write data to the user’s clipboard.
+
+
+
++++also encrypted-media, gyroscope, and web-share 
+
+These three will allow the use of encrypted media extensions to protect the video, grant access to the device’s motion and orientation sensors, and allow sharing the iframe content through the device's native share dialogs.
 
 
 
@@ -887,6 +919,13 @@ to fill the color of Certain place loke the drawn box in svg
 
 
 
+46-another att used in allow : referrerpolicy
+
+&#x20;It is the rule that determines how much detail you share when your page connects to another page.
+
+
+
+Add the referrerpolicy attribute and set it to strict-origin-when-cross-origin. This shares the full address on the same site, only the site name on other sites, and nothing on insecure sit
 
 
 
@@ -894,39 +933,7 @@ to fill the color of Certain place loke the drawn box in svg
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+47-and then there is allowfullscreen att for allow element here(till now , idk about future)
 
 
 
