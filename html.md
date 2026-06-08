@@ -1,4 +1,4 @@
-html:
+#### html:
 
 HTML, which stands for Hypertext Markup Language
 
@@ -6,19 +6,29 @@ HTML, which stands for Hypertext Markup Language
 
 
 
-0-<!DOCTYPE html>
+#### 0-<!DOCTYPE html>
 
 in <!DOCTYPE html> we believe
 
 
 
-1- <h1>your note</h1>
+
+
+
+
+
+
+#### 1- <h1>your note</h1>
 
 (this becomes the header priority and size 1 of your website in SEO this tells a lot)
 
 
 
-2- <h2> your not which is sub header</h2>
+
+
+
+
+#### 2- <h2> your not which is sub header</h2>
 
 (this becomes your sub-header)
 
@@ -26,7 +36,13 @@ in <!DOCTYPE html> we believe
 
 
 
-3- then comes the <p>paragraph</p>
+
+
+
+
+
+
+#### 3- then comes the <p>paragraph</p>
 
 which is normal text which we may edit later with css
 
@@ -76,7 +92,19 @@ which is normal text which we may edit later with css
 
 
 
-4-What Are Attributes, and How Do They Work?
+
+
+
+
+
+
+
+
+
+
+
+
+#### 4-What Are Attributes, and How Do They Work?
 
 An attribute is a value placed inside the opening tag of an HTML element. Attributes provide additional information about the element or specify how the element should behave. Here is the basic syntax for an attribute:
 
@@ -90,11 +118,33 @@ The attribute name is followed by an equal sign (=) and a value in quotes. The v
 
 
 
-4-The <a> element, also known as the anchor element, is used to create hyperlinks. The text between the opening and closing <a> tags is the clickable part users select to navigate.
 
 
 
-5/6-src, and alt, or alternative, attribute - which is used to specify the source of an image and provide alternative descriptive text for the image, respectively.
+
+
+
+
+
+
+
+#### 4-The <a> element, also known as the anchor element, is used to create hyperlinks. The text between the opening and closing <a> tags is the clickable part users select to navigate.
+
+
+
+
+
+
+
+
+
+
+
+#### 5/6-src, and alt, or alternative, attribute - which is used to specify the source of an image and provide alternative descriptive text for the image, respectively.
+
+
+
+
 
 
 
@@ -148,7 +198,7 @@ righteous format to get up and use img src and href :
 
 
 
-7- Link element:
+#### 7- Link element:
 
 The link element is used to link to external resources like stylesheets and site icons. Here is the basic syntax for using the link element for an external CSS file:
 
@@ -190,11 +240,11 @@ The link element should be placed inside the head element as seen in the followi
 
 
 
-8-What Is an HTML Boilerplate?
+#### 8-What Is an HTML Boilerplate?
 
 
 
-It's like a ready-made template for your webpages. Think of it as the foundation of a house. A boilerplate includes the basic structure and essential elements every HTML document needs. It saves you time and helps ensure your pages are set up properly. Here is an example:
+It's like a ready-made template for your webpages. Think of it as the foundation of a house. A boilerplate includes the basic structure and essential elements every HTML document needs. It saves you "time" and helps ensure your Fpages are set up properly. Here is an example:
 
 
 
@@ -232,7 +282,9 @@ It's like a ready-made template for your webpages. Think of it as the foundation
 
 
 
-9-First, there is the DOCTYPE declaration:It tells browsers which version of HTML you're using. Next, comes the html tag:
+#### 9-First, there is the DOCTYPE declaration
+
+It tells browsers which version of HTML you're using. Next, comes the html tag:
 
 <!DOCTYPE html>
 
@@ -256,7 +308,7 @@ This wraps around all your content, and can specify the language of your page. I
 
 
 
-10-The head section contains important behind-the-scenes information
+#### 10-The head section contains important behind-the-scenes information
 
 Your site's metadata, contained in meta elements, has details about things like character encoding, and how websites like Twitter should preview your page's link. Your site's title, found in the title element, determines the text that appears in the browser tab or window. Finally, you'll typically link your page's external stylesheets in the head section using link elements.
 
@@ -264,7 +316,15 @@ Your site's metadata, contained in meta elements, has details about things like 
 
 
 
-11-the body section is where all your contents go :
+
+
+
+
+
+
+
+
+#### 11-the body section is where all your contents go :
 
 <body>
 
@@ -280,7 +340,13 @@ Your site's metadata, contained in meta elements, has details about things like 
 
 
 
-12-What Is UTF-8 Character Encoding, and Why Is It Needed?
+
+
+
+
+
+
+#### 12-What Is UTF-8 Character Encoding, and Why Is It Needed?
 
 UTF-8, or UCS Transformation Format 8, is a standardized character encoding widely used on the web. Character encoding is the method computers use to store characters as data. Essentially, all text on a web page is a sequence of characters stored as one or more bytes. In computing, a byte is a unit of data consisting of 8 bits, or binary digits. UTF-8 supports every character in the Unicode character set - and this includes characters and symbols from all writing systems, languages, and technical symbols. Here is an example of using the meta element with the charset attribute to set the character encoding to UTF-8:
 
@@ -298,7 +364,7 @@ UTF-8, or UCS Transformation Format 8, is a standardized character encoding wide
 
 
 
-13-nesting:
+#### 13-nesting:
 
 In the previous step
 
@@ -350,6 +416,43 @@ The src attribute in an img element specifies the image's URL (where the image i
 
 To open links in a new tab on anchor,The target attribute specifies where to open the linked document. target="\_blank" opens the linked document in a new tab or window.
 
+You may have seen the target attribute on anchor elements, or links. This important attribute tells the browser where to open the URL for the anchor element.
+
+Enable the interactive editor, click on the link and you will be directed to the freeCodeCamp homepage in a new browser tab.
+
+<a href="https://freecodecamp.org" target="\\\\\\\_blank">Visit freeCodeCamp</a>
+There are four important possible values for this attribute. Note that each value is preceded by an underscore.
+
+The first value is \_self, which is the default value. This opens the link in the current browsing context. In most cases, this will be the current tab or window.
+
+
+
+
+
+The second value is \_blank, which opens the link in a new browsing context. Typically, this will open in a new tab. But some users might configure their browsers to open a new window instead.
+
+
+
+
+
+The third value is \_parent, which opens the link in the parent of the current context. For example, if your website has an iframe, a \_parent value in that iframe would open in your website's tab/window, not in the embedded frame.
+
+
+
+
+
+The fourth value is \_top, which opens the link in the top-most browsing context - think "the parent of the parent". This is similar to \_parent, but the link will always open in the full browser tab/window, even for nested embedded frames.
+
+
+
+
+
+There is a fifth value, called \_unfencedTop, which is currently used for the experimental FencedFrame API. At the time of this lesson, you probably won't have a reason to use this one yet.
+
+Selecting the right target value to control where your users end up is an important consideration when creating a website.
+
+
+
 
 
 
@@ -359,6 +462,14 @@ To open links in a new tab on anchor,The target attribute specifies where to ope
 ## 16-section
 
 The section element is used to define sections in a document, such as chapters, headers, footers, or any other sections of the document. It is a semantic element that helps with SEO and accessibility.
+
+
+
+
+
+
+
+
 
 
 
@@ -376,6 +487,14 @@ To create an unordered list of items, you can use the ul element
 
 
 
+
+
+
+
+
+
+
+
 ### 18-li element
 
 The li element is used to create a list item in an ordered or unordered list.
@@ -388,6 +507,16 @@ list of items are shown with bullets
 
 
 
+
+
+
+
+
+
+
+
+
+
 ### 19-The figure element
 
 Step 25
@@ -397,6 +526,10 @@ The figure element represents self-contained content and will allow you to assoc
 
 
 we can Nest inside figure element.
+
+
+
+
 
 
 
@@ -422,7 +555,15 @@ Example Code:
 
 
 
-21-em
+
+
+
+
+
+
+
+
+#### 21-em
 
 To place emphasis on a specific word or phrase, you can use the em element.
 
@@ -432,7 +573,13 @@ To place emphasis on a specific word or phrase, you can use the em element.
 
 
 
-22-ol
+
+
+
+
+
+
+#### 22-ol
 
 The code for an ordered list (ol) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
 
@@ -442,7 +589,11 @@ The code for an ordered list (ol) is similar to an unordered list, but list item
 
 
 
-23-The strong element
+
+
+
+
+#### 23-The strong element
 
 The strong element is used to indicate that some text is of strong importance or urgent.
 
@@ -454,7 +605,13 @@ The strong element is used to indicate that some text is of strong importance or
 
 
 
-24-The footer element
+
+
+
+
+
+
+#### 24-The footer element
 
 The footer element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
 
@@ -466,14 +623,33 @@ The footer element is used to define a footer for a document or section. A foote
 
 
 
-25-The title element
+
+
+
+
+
+
+
+
+#### 25-The title element
 
 determines what browsers show in the title bar or tab for the page.
 
 
 
+
+
+
+
+
+
+
+
+
+
 26-The div element
 The div element is used as a container to group other elements.
+---
 
 Here is an example of a div element. Add another paragraph element inside of the div element and see the changes in the preview window. To see the previews, you will need to enable the interactive editor.
 
@@ -495,7 +671,10 @@ in summary div has no semantic meaning.
 
 
 
-27-The id and class attribute
+
+
+#### 27-The id and class attribute
+
 id att adds a unique identifier to an HTML element.
 
 +Browsers will see this space as part of the id which will lead to unwanted issues when it comes to styling and scripting. id attribute values should only contain letters, digits, underscores, and dashes.
@@ -642,7 +821,7 @@ So how do these open graph properties affect Search Engine Optimization? When yo
 
 
 
-<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
+<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
 
 &#x20;
 
@@ -676,7 +855,7 @@ The audio and video elements allow you to add sound and video content to your HT
 
 
 
-36- The loop attribute is a boolean attribute that makes the audio replay continuously.
+#### 36- The loop attribute is a boolean attribute that makes the audio replay continuously.
 
 &#x20;
 
@@ -750,7 +929,7 @@ When it comes to audio file types, there are differences in which browsers suppo
 
 
 
-37-Poster att
+#### 37-Poster att
 
 For the src, or source attribute, we are using a video called "Big Buck Bunny" from archive.org. If you wanted to display an image while the video is downloading, you can use the poster attribute. This attribute is not available for audio elements and is unique to the video element.
 
@@ -778,7 +957,7 @@ while svg is scaleable vector graphic setting it's values in XML,which is top no
 
 
 
-38-SVG element
+#### 38-SVG element
 
 
 
@@ -812,7 +991,7 @@ which describes the values of SVG we gonna build
 
 
 
-40- d attribute
+#### 40- d attribute
 
 
 
@@ -828,7 +1007,17 @@ which describes the values of SVG we gonna build
 
 
 
-41-while width and height come as att inside the svg element
+
+
+#### 41-while width and height come as att inside the svg element
+
+
+
+
+
+
+
+
 
 
 
@@ -841,8 +1030,14 @@ which describes the values of SVG we gonna build
 
 
 42-viewBox Attribute
-
 which controls what part of image is visible inside SVG
+---
+
+
+
+
+
+
 
 
 
@@ -855,7 +1050,6 @@ which controls what part of image is visible inside SVG
 
 
 43-fill attribute
-
 to fill the color of Certain place loke the drawn box in svg
 
 
@@ -865,6 +1059,12 @@ to fill the color of Certain place loke the drawn box in svg
 
 
 ### 
+
+
+
+
+
+
 
 44-iframe element
 This element stands for inline frame. It's an inline element used to embed other HTML content directly within the HTML page. That HTML content could be a video, map, another HTML element, or even other web pages.
@@ -883,7 +1083,15 @@ This element stands for inline frame. It's an inline element used to embed other
 
 
 
-45-beside iframe element we use ALLOW (allow att)
+
+
+
+
+
+
+
+
+#### 45-beside iframe element we use ALLOW (allow att)
 
 It's like a permission list that tells the browser what features the iframe is allowed to use
 
@@ -907,7 +1115,7 @@ accelerometer lets the iframe use motion sensors so it can detect things like de
 
 
 
-+++also encrypted-media, gyroscope, and web-share 
++++also encrypted-media, gyroscope, and web-share
 
 These three will allow the use of encrypted media extensions to protect the video, grant access to the device’s motion and orientation sensors, and allow sharing the iframe content through the device's native share dialogs.
 
@@ -919,7 +1127,19 @@ These three will allow the use of encrypted media extensions to protect the vide
 
 
 
-46-another att used in allow : referrerpolicy
+
+
+
+
+
+
+
+
+
+
+
+
+### 46-another att used in allow : referrerpolicy
 
 &#x20;It is the rule that determines how much detail you share when your page connects to another page.
 
@@ -933,7 +1153,234 @@ Add the referrerpolicy attribute and set it to strict-origin-when-cross-origin. 
 
 
 
-47-and then there is allowfullscreen att for allow element here(till now , idk about future)
+
+
+
+
+
+
+
+
+
+
+
+
+##### 47-and then there is allowfullscreen att for allow element here(till now , idk about future)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 48-Absolute and relative path 
+
++++An absolute path is a complete link to a resource. It starts from the root directory, includes every other directory, and finally the filename and extension. The "root directory" refers to the top-level directory or folder in a hierarchy.
+
+
+
++++If you are linking to a resource on your local machine, use an absolute path, which includes the full directory location of the file.
+
+
+
+
+
++++An absolute URL is a complete address used to access a resource. It includes the protocol - which could be http, https, and file and the domain name if the resource is on the web.
+
+
+
+
+
+Here's how to link to the about.html file with an absolute path:
+
+
+
+<p>
+
+&#x20; Read more on the
+
+&#x20; <a
+
+&#x20;   href="/Users/user/Desktop/fCC/script-code/absolute-vs-relative-paths/pages/about.html"
+
+&#x20;   >About Page</a
+
+&#x20;   >
+
+
+
+
+
+
+
+Here's an example of an absolute URL that links to the freeCodeCamp logo:
+
+
+
+<a href="https://design-style-guide.freecodecamp.org/img/fcc\_secondary\_small.svg">
+
+&#x20; View fCC Logo
+
+</a>
+
+
+
+
+
+
+
+##### ++++An absolute path shows the full location of a file within a file system and is commonly used for resources on a local machine. An absolute URL includes access information - such as the protocol and, for web resources, the domain name - which tells the browser how and where to retrieve the resource.
+
+
+
+
+
+
+
+++++A relative path specifies the location of a file relative to the directory of the current file. It does not include the protocol or the domain name, making it shorter and more flexible for internal links within the same website. Here's an example of linking to the about.html page from the contact.html page, both of which are in the same folder:
+
+
+
+<p>
+
+&#x20; Read more on the
+
+&#x20; <a href="about.html">About Page</a>
+
+</p>
+
+So imagine you are on the contact.html page, and because the about.html page is in the same place, you simply get the filename. This is an example of using a relative file path.
+
+
+
+So, which should you use and when: an absolute path, an absolute URL, or a relative path? Here are the rules you should follow:
+
+
+
+Use absolute paths when you want to reference a resource from a fixed location, such as from the root of your site or a known directory on your local machine.
+
+
+
+Use absolute URL when linking to a resource hosted on an external website.
+
+
+
+Use relative paths when linking to resources within the same website.
+
+
+
+Use relative paths if you want to keep your code cleaner and easier to maintain during development.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 49-What Is the Difference Between Slashes, a Single Dot, and Double Dot in Path Syntax?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 50-What Are the Different Link States
+
+The first is the default state, which is :link. This state represents a link which the user has not visited, clicked, or interacted with yet. You can think of this state as providing the base styles for all links on your page. The other states build on top of it.
+
+
+
+
+
+The second state is :visited, which applies when a user has already visited the page being linked to. By default, this turns the link purple - but you can leverage CSS to provide a different visual indication to the user. This is helpful to let someone know they have already read a portion of your documentation. Or, that the site is one they can trust because they have used it before.
+
+
+
+The third state is :hover. This state applies when a user is hovering their cursor over a link. This state is helpful for providing extra attention to a link, to ensure a user actually intends to click it.
+
+
+
+
+
+And finally, we have :active. This state applies to links that are being activated by the user. This typically means clicking on the link with the primary mouse button by left clicking, in most cases. This state can be helpful for showing a user that the element they clicked on is interactive.
+
+
+
+
+51-I element 
+i is simple italic it's out of use but good to know, it's similar in terms of look to <em>\
+
+
+
+
+
+52-<B> element
+similar to strong but this one comes when we have a highlighted text no where else while strong comes for strong feelings or emergencies as well
+
+
+
+
+53-<dl> description list 
+
+Description lists are perfect for presenting terms and definitions in an organized and easy-to-read format, like in a glossary, or real dictionary, where you can find words with their corresponding definitions.
+
+This is an example of a description list in HTML with two terms and their corresponding details.
+
+
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <!-- <dt>JS</dt>
+  <dd>JavaScript</dd> -->
+</dl>
+
+You will need three HTML elements to define a description list. First, the description list element, dl, which is the container for the entire list. You can see it wraps around all the other elements of the description list in the example.
+
+Then, one description term element, dt, for each term. In this case the description list has two terms, HTML and CSS, so it has two of these elements.
+
+And finally, after each term you will find a description details element, dd, for the description, or details associated with that term. In this example, they are Hypertext Markup Language and Cascading Style Sheets.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
