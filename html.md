@@ -420,7 +420,7 @@ You may have seen the target attribute on anchor elements, or links. This import
 
 Enable the interactive editor, click on the link and you will be directed to the freeCodeCamp homepage in a new browser tab.
 
-<a href="https://freecodecamp.org" target="\\\\\\\_blank">Visit freeCodeCamp</a>
+<a href="https://freecodecamp.org" target="\\\\\\\\\\\\\\\_blank">Visit freeCodeCamp</a>
 There are four important possible values for this attribute. Note that each value is preceded by an underscore.
 
 The first value is \_self, which is the default value. This opens the link in the current browsing context. In most cases, this will be the current tab or window.
@@ -821,7 +821,7 @@ So how do these open graph properties affect Search Engine Optimization? When yo
 
 
 
-<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
+<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
 
 &#x20;
 
@@ -1181,7 +1181,7 @@ Add the referrerpolicy attribute and set it to strict-origin-when-cross-origin. 
 
 
 
-#### 48-Absolute and relative path 
+#### 48-Absolute and relative path
 
 +++An absolute path is a complete link to a resource. It starts from the root directory, includes every other directory, and finally the filename and extension. The "root directory" refers to the top-level directory or folder in a hierarchy.
 
@@ -1225,7 +1225,7 @@ Here's an example of an absolute URL that links to the freeCodeCamp logo:
 
 
 
-<a href="https://design-style-guide.freecodecamp.org/img/fcc\_secondary\_small.svg">
+<a href="https://design-style-guide.freecodecamp.org/img/fcc\\\_secondary\\\_small.svg">
 
 &#x20; View fCC Logo
 
@@ -1334,8 +1334,9 @@ And finally, we have :active. This state applies to links that are being activat
 
 
 
-51-I element 
-i is simple italic it's out of use but good to know, it's similar in terms of look to <em>\
+
+51-I element
+i is simple italic it's out of use but good to know, it's similar in terms of look to <em>\\
 
 
 
@@ -1347,11 +1348,13 @@ similar to strong but this one comes when we have a highlighted text no where el
 
 
 
-53-<dl> description list 
+
+53-<dl> description list
 
 Description lists are perfect for presenting terms and definitions in an organized and easy-to-read format, like in a glossary, or real dictionary, where you can find words with their corresponding definitions.
 
 This is an example of a description list in HTML with two terms and their corresponding details.
+
 
 
 <dl>
@@ -1368,6 +1371,298 @@ You will need three HTML elements to define a description list. First, the descr
 Then, one description term element, dt, for each term. In this case the description list has two terms, HTML and CSS, so it has two of these elements.
 
 And finally, after each term you will find a description details element, dd, for the description, or details associated with that term. In this example, they are Hypertext Markup Language and Cascading Style Sheets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+54-blockk quote element :
+In HTML, quoted elements are used to distinguish quoted text from the surrounding content. This gives the quoted text a format that is easy to identify.
+
+
+
+<blockquote cite="https://www.freecodecamp.org/news/learn-to-code-book/">
+
+&#x20; "Can you imagine what it would be like to be a successful developer? To have built software systems that people rely upon?"
+
+</blockquote>
+
+
+
+
+
++++This element has a cite attribute. The value of the cite attribute is the URL of the source. While this attribute doesn't change the presentation of the block quote, it's very helpful for giving screen readers and search engines more information about the quote. In the browser, you'll see that the text is slightly indented.
+
+
+
+
+
++++If you want to start and end the block quote with quotation marks, you may need to write them explicitly within the text. You can write the text directly within the block quotation element, like I just did, or wrap it within one or more paragraph elements. This is helpful when the text has multiple paragraphs, but you want to keep them within the same block quote. Here's an example with four paragraphs:
+
+
+
+<blockquote cite="https://www.freecodecamp.org/news/learn-to-code-book/">
+
+&#x20; <p>Build your projects. Show them to your friends. Build projects for your friends.</p>
+
+&#x20; <p>Build your network. Help the people you meet along the way. What goes around comes around. You'll get what's coming to you.</p>   
+
+&#x20; <p>It is not too late. Life is long.</p>
+
+&#x20; <p>You will look back on this moment years from now and be glad you made a move.</p>
+
+</blockquote>
+
+
+
+
+
+++++++++++++++++++++++++++++++using the cite attribute to attribute the source of the quotation, but the attribute doesn't really show the source to the user. It only works behind the scenes.
+
+
+
+
+
+
+
+If you want to attribute the source visually, you can add a citation element, cite, outside of the block quotation element. This is different from the cite attribute. The citation element is an HTML element that you can use to mark up the title of a referenced creative work like a book article, song, film, website, or research paper.
+
+
+
+example;
+
+
+
+<div>
+
+&#x20; <blockquote cite="https://www.freecodecamp.org/news/learn-to-code-book/">
+
+&#x20;   Can you imagine what it would be like to be a successful developer? To have built software systems that people rely upon?
+
+&#x20; </blockquote>
+
+&#x20; <p>—Quincy Larson, <cite>How to Learn to Code and Get a Developer Job \[Full Book].</cite></p>
+
+</div>
+
+
+
+
+
+54\*-while the quote element itself is <q></q>
+
+you may and better use cite att in it's first row of values : <q cite="whatever.com">what ever</q>
+
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++What's the difference between block quotes and inline quotes? You should use block quotes for extended quotations from other sources and inline quotes for short quotations from other sources that should be part of existing paragraphs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55-abbreviation 
+
+comes in two forms of acronyms and initialisms 
+
+acronyms are outstanding for letter taken from words and formed together as one
+
+while initialisms are first letter of each word put together and at the end their different is that acronym are called as a word while initials are considered a letter even after their assembly 
+
+initialism: html 
+
+acronyms: GUI
+
+
+
+
+
++++While you don't necessarily need to use the abbreviation element for every abbreviation on your web page, it's recommended for those that might be unclear and those that might need additional context.
+
+
+
+You should use your best judgment to find the right balance between information and presentation to avoid cluttering the text while being clear and concise.
+
+
+
+
+
++++you may use title att in your <abbr> element t o improve it's meaning if it's a title of your subject
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 56-address element 
+
+The address element is versatile and can be used for business pages, author pages, personal sites, and more.
+
+
+
+When it comes to building out your website's contact sections, you should use the semantic address element over a generic element like a div.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+57-break element  
+
+<br></br> comes in the middle of your text nce in a while to set different by putting a line where ever it comes :D
+
+
+
+Here is an example of using the address element for a company contact page:
+
+
+
+<address>
+
+&#x20; <h2>Company Name</h2>
+
+&#x20; <p>
+
+&#x20;   1234 Elm Street<br />
+
+&#x20;   Springfield, IL 62701<br />
+
+&#x20;   United States
+
+&#x20; </p>
+
+&#x20; <p>Phone: <a href="tel:+15555555555">+1 (555) 555-5555</a></p>
+
+&#x20; <p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>
+
+</address>
+
+In this example, there is the company name, physical address, phone, and email information. For the physical address, the line break element, br, is used to show the division between the street name, city, and country.
+
+
+
+For the phone number, we have an anchor element with the href value set for telephone numbers. The tel:+ value inside the href attribute creates a clickable link to initiate a phone call on certain devices that support that.
+
+
+
+For the email address, another anchor element is used with the href value set to a mailto link. mailto links are used in HTML documents to allow users to open a new email within their preferred email client.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
