@@ -420,7 +420,7 @@ You may have seen the target attribute on anchor elements, or links. This import
 
 Enable the interactive editor, click on the link and you will be directed to the freeCodeCamp homepage in a new browser tab.
 
-<a href="https://freecodecamp.org" target="\\\\\\\\\\\\\\\_blank">Visit freeCodeCamp</a>
+<a href="https://freecodecamp.org" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank">Visit freeCodeCamp</a>
 There are four important possible values for this attribute. Note that each value is preceded by an underscore.
 
 The first value is \_self, which is the default value. This opens the link in the current browsing context. In most cases, this will be the current tab or window.
@@ -821,7 +821,7 @@ So how do these open graph properties affect Search Engine Optimization? When yo
 
 
 
-<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
+<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
 
 &#x20;
 
@@ -1225,7 +1225,7 @@ Here's an example of an absolute URL that links to the freeCodeCamp logo:
 
 
 
-<a href="https://design-style-guide.freecodecamp.org/img/fcc\\\_secondary\\\_small.svg">
+<a href="https://design-style-guide.freecodecamp.org/img/fcc\\\\\\\_secondary\\\\\\\_small.svg">
 
 &#x20; View fCC Logo
 
@@ -1427,7 +1427,7 @@ In HTML, quoted elements are used to distinguish quoted text from the surroundin
 
 &#x20; <p>Build your projects. Show them to your friends. Build projects for your friends.</p>
 
-&#x20; <p>Build your network. Help the people you meet along the way. What goes around comes around. You'll get what's coming to you.</p>   
+&#x20; <p>Build your network. Help the people you meet along the way. What goes around comes around. You'll get what's coming to you.</p>
 
 &#x20; <p>It is not too late. Life is long.</p>
 
@@ -1507,15 +1507,15 @@ you may and better use cite att in it's first row of values : <q cite="whatever.
 
 
 
-55-abbreviation 
+55-abbreviation
 
-comes in two forms of acronyms and initialisms 
+comes in two forms of acronyms and initialisms
 
 acronyms are outstanding for letter taken from words and formed together as one
 
-while initialisms are first letter of each word put together and at the end their different is that acronym are called as a word while initials are considered a letter even after their assembly 
+while initialisms are first letter of each word put together and at the end their different is that acronym are called as a word while initials are considered a letter even after their assembly
 
-initialism: html 
+initialism: html
 
 acronyms: GUI
 
@@ -1557,7 +1557,7 @@ You should use your best judgment to find the right balance between information 
 
 
 
-#### 56-address element 
+#### 56-address element
 
 The address element is versatile and can be used for business pages, author pages, personal sites, and more.
 
@@ -1583,7 +1583,7 @@ When it comes to building out your website's contact sections, you should use th
 
 
 
-57-break element  
+57-break element
 
 <br></br> comes in the middle of your text nce in a while to set different by putting a line where ever it comes :D
 
@@ -1599,9 +1599,11 @@ Here is an example of using the address element for a company contact page:
 
 &#x20; <p>
 
-&#x20;   1234 Elm Street<br />
+&#x20;   1234 Elm Street
 
-&#x20;   Springfield, IL 62701<br />
+
+&#x20;   Springfield, IL 62701
+
 
 &#x20;   United States
 
@@ -1727,5 +1729,231 @@ Whenever you need to represent events, publication dates, or appointments, it is
 
 
 
+\#How Do You Display Mathematical Equations and Chemical Formulas in HTML?
 
+
+
+#### 60-<sup> element
+
+The superscript element is used to display a piece of text as a superscript. A superscript is a symbol or letter printed above the normal line of text.
+
+
+
+
+
+++++++++++It is important to note that the superscript element should only be used for typographical reasons. If you want to style a piece of text with a raised baseline, then you should use CSS instead of the superscript element.
+
+
+
+
+
+
+
+
+
+#### 61-<sub>
+
+To represent chemical equations inside HTML, you would use the subscript element. This element uses a subscript which displays a lowered baseline using smaller text.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\#How Do You Represent Computer Code in HTML?
+
+
+
+#### 62-<code> element
+
+The inline code element is used to represent short snippets of code inside text. Common use cases for the code element would be for technical articles and documentation pages.
+
+
+
+
+
+
+
+
+
+
+
+
+
+63-<pre> element
+
+The code element is meant to represent a single line of code. If you want to represent multiple lines of code, you will need to place a code element inside a preformatted text element.
+
+
+
+
+
+
+
+++++When using the pre element, you will need to be mindful of spacing because it will display exactly as written inside the HTML document.
+
+
+
+In the browser, you will see that the code is indented several spaces to the right. If you were to change the indentation in the code example, then you will see a difference in indentation on the screen.
+
+
+
+When it comes to including code examples inside your HTML document, you should use the code element for short inline examples.
+
+
+
+If you need to display longer code snippets, then you will need to use the pre and code elements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## \#What Are the U, S, and Ruby Elements Used For, and How Do They Work?
+
+
+
+
+
+
+
+64-<u> element
+
+The unarticulated annotation element, or u element for short, is used to represent inline text that has non-textual annotation applied.
+
+
+
+++++In HTML4, the u element was used for styling purposes. But in HTML5, the u element should only be used to indicate that text has non-textual annotation applied.
+
+
+
+++++++++++++++++If you want to style a piece of text with an underline, you should use CSS instead of HTML.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+65-<s> element
+
+The strikethrough element, or s element for short, should be used to represent when text is no longer accurate or relevant.
+
+(it crosses the text with a line)
+
+
+
+++++++++++The s element should never be used just to show changes to a document. More appropriate elements in that case would be the deleted text element and the inserted text element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66-<ruby> element
+
+The ruby element represents small text shown above or below the main text. It is typically used to show the pronunciation of East Asian characters. Here is the ruby element example from the MDN web docs page:
+
+example:
+
+<ruby> 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp> </ruby>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+67-header element
+
+The header will be responsible for displaying main title, image and page navigation for the blog.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+68-<article> element
+
+The article element represents self contained content on a web page.
+
+
+
+Example Code
+
+<article>
+
+&#x20; <h1>Example heading</h1>
+
+&#x20; <p>Example article text</p>
+
+</article>
 
