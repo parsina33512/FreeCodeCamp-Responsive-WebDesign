@@ -420,7 +420,7 @@ You may have seen the target attribute on anchor elements, or links. This import
 
 Enable the interactive editor, click on the link and you will be directed to the freeCodeCamp homepage in a new browser tab.
 
-<a href="https://freecodecamp.org" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank">Visit freeCodeCamp</a>
+<a href="https://freecodecamp.org" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank">Visit freeCodeCamp</a>
 There are four important possible values for this attribute. Note that each value is preceded by an underscore.
 
 The first value is \_self, which is the default value. This opens the link in the current browsing context. In most cases, this will be the current tab or window.
@@ -722,8 +722,20 @@ The script element is used to embed executable code. Most developers will use th
 30-button element
 
 The button element is used to create clickable buttons on a webpage. Buttons are interactive elements that users can click to perform actions.
+Other examples of using the button element include submitting a form, showing a modal, or toggling a side menu open and closed. The button element has a type attribute which controls the behavior of the button when it is activated. The first possible value for the type attribute would be the button type. Here is an example of using the button element with the button type and a text of Show Alert:
 
+<button type="button">Show Alert</button>
 
++++
+Another possible value for the type attribute is the submit value. Here is an example of using a button element with the submit type.
+
+<form action="">
+  <label for="email">Email address:</label>
+  <input type="email" id="email" name="email" />
+  <button type="submit">Submit form</button>
+</form>
+Inside this form element, there is a label and input element for the user's email address. When the user clicks on the submit button, their data will be sent to the server and will be processed. The third possible value for the type attribute is the reset value. Here is an example of a form element with reset and submit buttons.
++++
 
 
 
@@ -821,7 +833,7 @@ So how do these open graph properties affect Search Engine Optimization? When yo
 
 
 
-<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
+<figure><a href="https://www.freecodecamp.org/learn" target="\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Tropical travels are avaiable"></a><figcaption>Tropical Islands</figcaption></figure>  
 
 &#x20;
 
@@ -1225,7 +1237,7 @@ Here's an example of an absolute URL that links to the freeCodeCamp logo:
 
 
 
-<a href="https://design-style-guide.freecodecamp.org/img/fcc\\\\\\\_secondary\\\\\\\_small.svg">
+<a href="https://design-style-guide.freecodecamp.org/img/fcc\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_secondary\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\_small.svg">
 
 &#x20; View fCC Logo
 
@@ -1602,7 +1614,9 @@ Here is an example of using the address element for a company contact page:
 &#x20;   1234 Elm Street
 
 
+
 &#x20;   Springfield, IL 62701
+
 
 
 &#x20;   United States
@@ -1956,4 +1970,80 @@ Example Code
 &#x20; <p>Example article text</p>
 
 </article>
+
+
+
+
+
+#### 
+
+#### **#What Is Client-Side Form Validation in HTML Forms, and What Are Some Examples?**
+
+
+
+**When a user fills out a form on your website, it is important that they fill out all of the necessary information in the correct format. HTML form controls, like inputs, have a lot of built-in validation that you can use to check for invalid data. This will help ensure that the user fixes these mistakes before the information is submitted and processed by the server.**
+
+
+
+**The term "client-side" refers to everything that happens on the user's computer or device, like the part of a website or app you interact with directly. This includes the layout, design, and any interactive features.**
+
+
+
+**The term "server-side" refers to everything that happens on the server, the computer, or system, that hosts the website or app. This includes processing data, running applications, and handling requests that come from the user's device.**
+
+
+
+**While client-side validation is important, you also need server-side validation for added security. Malicious users can bypass client-side checks, so robust server-side measures are essential. You'll learn more about this in a later module. For now, let's take a look at some examples of client-side form validation.**
+
+
+
+
+
+
+
+##### **69-required att**
+
+**One common example of built-in form validation is to use the required attribute in inputs. The required attribute specifies that the user needs to fill out that portion of the form before it gets submitted. Here is an example of using the required attribute in an email input.**
+
+**<form action="">**
+
+&#x20; **<label for="email">Email Address (Required field):</label>**
+
+&#x20; **<input**
+
+&#x20;   **required**
+
+&#x20;   **type="email"**
+
+&#x20;   **name="email"**
+
+&#x20;   **id="email"**
+
+&#x20;   **minlength="4"**
+
+&#x20;   **maxlength="64"**
+
+&#x20; **/>**
+
+&#x20; **<button type="submit">Submit Form</button>**
+
+**</form>**
+
+**The minlength and maxlength attributes are used to set the minimum and maximum length in characters for the email input. If you don't include the minimum length or exceed the max length of characters, the browser will show an alert message.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### **#What Are the Different Form States, and Why Are They Important?**
 
